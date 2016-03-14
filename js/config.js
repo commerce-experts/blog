@@ -3,21 +3,21 @@ $(function() {
 	CMS.init({
 
 		// Name of your site or location of logo file ,relative to root directory (img/logo.png)
-		siteName: 'My Site',
+		siteName: 'CXP - Blog',
 
 		// Tagline for your site
-		siteTagline: 'Your site tagline',
+		siteTagline: 'Blogging about data driven eBusiness',
 
 		// Email address
-		siteEmail: 'your_email@example.com',
+		siteEmail: 'info@commerce-experts.com',
 
 		// Name
-		siteAuthor: 'Your Name',
+		siteAuthor: 'CXP - Commerce Experts',
 
 		// Navigation items
 		siteNavItems: [
-			{ name: 'Home', href: 'https://commerce-experts.com', newWindow: false},
-			{ name: 'About'}
+			{ name: 'Home'},
+			{ name: 'Main Site', href: 'http://www.commerce-experts.com', newWindow: false}
 		],
 
 		// Posts folder name
