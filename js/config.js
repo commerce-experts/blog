@@ -3,7 +3,7 @@ $(function() {
 	CMS.init({
 
 		// Name of your site or location of logo file ,relative to root directory (img/logo.png)
-		siteName: 'CXP - Blog',
+		siteName: 'img/cxp-logo.png',
 
 		// Tagline for your site
 		siteTagline: 'Blogging about data driven eBusiness',
