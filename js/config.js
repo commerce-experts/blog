@@ -6,7 +6,7 @@ $(function() {
 		siteName: 'img/cxp-logo.png',
 
 		// Tagline for your site
-		siteTagline: 'Blogging about data driven eBusiness',
+		siteTagline: '/ blogging about data driven eBusiness',
 
 		// Email address
 		siteEmail: 'info@commerce-experts.com',
