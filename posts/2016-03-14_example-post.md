@@ -13,7 +13,9 @@ I decided to follow a different path by trying to take a more rigorous approach 
 
 With this post, I want to describe a hypothetical revenue management platform that consumes a retailer’s data and controls different aspects of the retailer’s strategy such as pricing, marketing, and inventory.
 
-> Biltong meatloaf pork chop, short loin ham pancetta beef shank ball tip sausage bresaola.
+> I decided to follow a different path by trying to take a more rigorous approach and provide a systematic view of econometric models and objective functions that can leverage data analysis to make more automated decisions. 
+
+> With this post, I want to describe a hypothetical revenue management platform that consumes a retailer’s data and controls different aspects of the retailer’s strategy such as pricing, marketing, and inventory.
 
 ## The Bacon
 

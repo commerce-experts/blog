@@ -3,10 +3,10 @@ $(function() {
 	CMS.init({
 
 		// Name of your site or location of logo file ,relative to root directory (img/logo.png)
-		siteName: 'Blog | CXP',
+		siteName: 'CXP | Blog',
 
 		// Tagline for your site
-		siteTagline: '/ blogging about data driven eBusiness',
+		siteTagline: '/ blogging about going data driven',
 
 		// Email address
 		siteEmail: 'info@commerce-experts.com',
