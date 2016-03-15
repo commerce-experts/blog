@@ -9,10 +9,6 @@ The rise of omni-channel retail (or interconnected retail) that integrates marke
 
 Although there are many books on data mining in general and its applications to marketing and customer relationship management in particular, most of them are structured as data scientist manuals focusing on algorithms and methodologies and assume that human decisions play a central role in transforming analytical findings into business actions. 
 
-I decided to follow a different path by trying to take a more rigorous approach and provide a systematic view of econometric models and objective functions that can leverage data analysis to make more automated decisions. 
-
-With this post, I want to describe a hypothetical revenue management platform that consumes a retailer’s data and controls different aspects of the retailer’s strategy such as pricing, marketing, and inventory.
-
 > I decided to follow a different path by trying to take a more rigorous approach and provide a systematic view of econometric models and objective functions that can leverage data analysis to make more automated decisions. 
 
 > With this post, I want to describe a hypothetical revenue management platform that consumes a retailer’s data and controls different aspects of the retailer’s strategy such as pricing, marketing, and inventory.
