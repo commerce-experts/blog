@@ -17,6 +17,7 @@ With this post, I want to describe a hypothetical revenue management platform th
 
 > With this post, I want to describe a hypothetical revenue management platform that consumes a retailer’s data and controls different aspects of the retailer’s strategy such as pricing, marketing, and inventory.
 
+
 ## The combination of economic frameworks and data mining methods
 
 There are two major reasons why I focus on a combination of economic frameworks and data mining methods:
