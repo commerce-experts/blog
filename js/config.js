@@ -16,7 +16,7 @@ $(function() {
 
 		// Navigation items
 		siteNavItems: [
-			{ name: 'Home'},
+			{ name: 'Home', href: 'http://blog.commerce-experts.com', newWindow: false},
 			{ name: 'Main Site', href: 'http://www.commerce-experts.com', newWindow: false}
 		],
 
