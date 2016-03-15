@@ -1,65 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
+
 <head>
-  <meta charset="utf-8">
-  <title>CXP Commerce-Experts | Blog</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="css/poole.min.css">
-  <link rel="stylesheet" href="css/style.css">  
-  <link rel="icon" type="image/png" href="http://www.commerce-experts.com/img/favicon.ico">
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CXP Commerce-Experts | Blog</title>
+	<meta name="description" content="Blueprint: A basic template for a page stack navigation effect" />
+	<meta name="keywords" content="blueprint, template, html, css, page stack, 3d, perspective, navigation, menu" />
+	<meta name="author" content="CXP | Commerce Experts" />
+	<link rel="icon" type="image/png" href="http://www.commerce-experts.com/img/favicon.ico">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr-custom.js"></script>
 </head>
+
 <body>
+    <!-- Main View -->
+    <div class="container content">
 
-  <!-- Main View -->
-  <div class="container content">
+        <!-- navigation -->
+        <nav class="pages-nav">
+            <div class="pages-nav__item"><a class="link link--page" href="#page-home">Home</a></div>		
+            <div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-blog">Blog &amp; News</a></div>
+            <div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-contact">Contact</a></div>
+            <div class="pages-nav__item pages-nav__item--social">
+                <a class="link link--social link--faded" href="#"><i class="fa fa-twitter"></i><span class="text-hidden">Twitter</span></a>
+                <a class="link link--social link--faded" href="#"><i class="fa fa-linkedin"></i><span class="text-hidden">LinkedIn</span></a>
+                <a class="link link--social link--faded" href="#"><i class="fa fa-facebook"></i><span class="text-hidden">Facebook</span></a>
+                <a class="link link--social link--faded" href="#"><i class="fa fa-youtube-play"></i><span class="text-hidden">YouTube</span></a>
+            </div>
+        </nav>
+        <!-- /navigation-->
 
-    <header class="masthead">        
-         
-      <nav class="cms_nav"></nav>
-    </header>
+        <!-- pages stack -->
+        <div class="pages-stack">
+            <!-- page -->
+            <div class="cms_main" id="page-blog"></div>
+            <div class="page" id="page-blog">
 
-    <div class="cms_main"></div>
+            </div>
+            <!-- /page -->		
+            <div class="page" id="page-contact">
 
-    <footer class="cms_footer">
-      <small class="cms_footer_text"></small>
-    </footer>
+            </div>
+            <div class="page" id="page-manuals">
 
-  </div>
-
-  <!-- Page View -->
-  <script id="page-template" type="x-template">
-    <article class="page">
-      <h1 class="page-title"></h1>
-      <div class="page-content"></div>
-    </article>
-  </script>
-
-  <!-- Post View -->
-  <script id="post-template" type="x-template">
-    <article class="post">
-      <h1 class="post-title"></h1>
-      <time class="post-date"></time>
-      <div class="post-content"></div>
-    </article>
-  </script>
-
-  <!-- Error View -->
-  <script id="error-template" type="x-template">
-  	<div class="error">
-  		<b>Sorry, something went wrong :(</b>
-  		<p class="error_text"></p>
-  		<a href="#" class="close alert_close">&times;</a>
-  	</div>
-  </script>
-
-  <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script src="js/marked.js"></script>
-  <script src="js/cms.js"></script>
-  <script src="js/config.js"></script>
+            </div>
+        </div>
+        <footer class="cms_footer">
+            <small class="cms_footer_text"></small>
+        </footer>
+    </div>    
+	<!-- /pages-stack -->
+	<button class="menu-button"><span>Menu</span></button>
+	<script src="js/classie.js"></script>
+	<script src="js/main.js"></script>
+    <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="js/marked.js"></script>
+    <script src="js/cms.js"></script>
+    <script src="js/config.js"></script>
 </body>
 </html>

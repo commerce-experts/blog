@@ -30,7 +30,7 @@ $(function() {
 		pagesFolder: 'pages',
 
 		// Site fade speed
-		fadeSpeed: 300,
+		fadeSpeed: 50,
 
 		// Site footer text
 		footerText: '&copy; ' + new Date().getFullYear() + ' CXP Commerce Experts UG (haftungsbeschränkt)',
