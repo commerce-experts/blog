@@ -8,29 +8,29 @@ post = "/:year/:month/:day/:filename/"
 [Taxonomies]
 tag = "tags"
 [[menu.main]]
-name = "Blog"
-url = "/"
-weight = 6
-[[menu.main]]
-name = "Startseite"
-url = "http://www.commerce-experts.com/"
-weight = 1
-[[menu.main]]
-name = "Schwerpunkte"
-url = "http://www.commerce-experts.com/#about"
-weight = 2
-[[menu.main]]
-name = "Team"
-url = "http://www.commerce-experts.com/#team"
-weight = 3
+name = "Kontakt"
+url = "http://www.commerce-experts.com/#contact"
+weight = 5
 [[menu.main]]
 name = "Partner"
 url = "http://www.commerce-experts.com/#parallax4"
 weight = 4
 [[menu.main]]
-name = "Kontakt"
-url = "http://www.commerce-experts.com/#contact"
-weight = 5
+name = "Team"
+url = "http://www.commerce-experts.com/#team"
+weight = 3
+[[menu.main]]
+name = "Schwerpunkte"
+url = "http://www.commerce-experts.com/#about"
+weight = 2
+[[menu.main]]
+name = "Startseite"
+url = "http://www.commerce-experts.com/"
+weight = 1
+[[menu.main]]
+name = "Blog"
+url = "/"
+weight = 6
 [params]
 github = "https://github.com/CommerceExperts"
 headline = "CXP Blog"
