@@ -1,3 +1,48 @@
 baseurl = "http://blog.commerce-experts.com/"
 title = "Commerce Experts Blog"
+theme = "ghostwriter"
 languageCode = "en-us"
+copyright = "Commerce Experts UG"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    intro = true
+    headline = "CXP Blog"
+    github = "https://github.com/CommerceExperts"
+    twitter = "https://twitter.com/Andy_wagner1980"
+    opengraph = true
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 6
+
+[[menu.main]]
+    name = "Startseite"
+    url = "http://www.commerce-experts.com/"
+    weight = 1
+
+[[menu.main]]
+    name = "Schwerpunkte"
+    url = "http://www.commerce-experts.com/#about"
+    weight = 2
+
+[[menu.main]]
+    name = "Team"
+    url = "http://www.commerce-experts.com/#team"
+    weight = 3
+
+[[menu.main]]
+    name = "Partner"
+    url = "http://www.commerce-experts.com/#parallax4"
+    weight = 4
+
+[[menu.main]]
+    name = "Kontakt"
+    url = "http://www.commerce-experts.com/#contact"
+    weight = 5
