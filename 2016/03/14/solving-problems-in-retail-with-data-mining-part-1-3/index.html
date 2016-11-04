@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Solving Problems in Retail with DATA MINING – Part 1/3 &middot; </title>
+        <meta name="description" content="Retail is one of the most important business domains for data science and data mining applications because of its prolific data and numerous optimization problems such as optimal prices, discounts, recommendations, and stock levels that can be solved using data analysis methods.
+The rise of omni-channel retail (or interconnected retail) that integrates marketing, customer relationship management, and inventory management across all online and offline channels has produced a plethora of correlated data which increases both the importance and capabilities of data-driven decisions.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.17" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Solving Problems in Retail with DATA MINING – Part 1/3">
+<meta property="og:description" content="Retail is one of the most important business domains for data science and data mining applications because of its prolific data and numerous optimization problems such as optimal prices, discounts, recommendations, and stock levels that can be solved using data analysis methods.
+The rise of omni-channel retail (or interconnected retail) that integrates marketing, customer relationship management, and inventory management across all online and offline channels has produced a plethora of correlated data which increases both the importance and capabilities of data-driven decisions.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://blog.commerce-experts.com/2016/03/14/solving-problems-in-retail-with-data-mining-part-1-3/">
+        <link rel="stylesheet" href="http://blog.commerce-experts.com/css/normalize.css">
+        <link rel="stylesheet" href="http://blog.commerce-experts.com/css/highlight.css">
+        <link rel="stylesheet" href="http://blog.commerce-experts.com/css/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    </head>
+    <body>
+        
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a title="Commerce Experts Blog" href="http://blog.commerce-experts.com/">Commerce Experts Blog</a>
+                            </h1>
+                        
+                        <a class="button-square" href="http://blog.commerce-experts.com/index.xml"><i class="fa fa-rss"></i></a>
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" title="Twitter" href="https://twitter.com/Andy_wagner1980">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" title="Github" href="https://github.com/CommerceExperts">
+                                <i class="fa fa-github-alt"></i>
+                            </a>
+                        
+                        
+                        
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a title="Startseite" href="http://www.commerce-experts.com/">Startseite</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="Schwerpunkte" href="http://www.commerce-experts.com/#about">Schwerpunkte</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="Team" href="http://www.commerce-experts.com/#team">Team</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="Partner" href="http://www.commerce-experts.com/#parallax4">Partner</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="Kontakt" href="http://www.commerce-experts.com/#contact">Kontakt</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="Blog" href="/">Blog</a>
+    </li>
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Solving Problems in Retail with DATA MINING – Part 1/3</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2016-03-14" itemprop="datePublished">Mon, Mar 14, 2016</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="http://schema.org/Person">
+            <span itemprop="name">
+                <a href="" itemprop="url" rel="author"></a>
+            </span>
+        </span>
+    </p>
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    
+
+<p>Retail is one of the most important business domains for data science and data mining applications because of its prolific data and numerous optimization problems such as optimal prices, discounts, recommendations, and stock levels that can be solved using data analysis methods.</p>
+
+<p>The rise of omni-channel retail (or interconnected retail) that integrates marketing, customer relationship management, and inventory management across all online and offline channels has produced a plethora of correlated data which increases both the importance and capabilities of data-driven decisions.</p>
+
+<p>Although there are many books on data mining in general and its applications to marketing and customer relationship management in particular, most of them are structured as data scientist manuals focusing on algorithms and methodologies and assume that human decisions play a central role in transforming analytical findings into business actions.</p>
+
+<blockquote>
+<p>I decided to follow a different path by trying to take a more rigorous approach and provide a systematic view of econometric models and objective functions that can leverage data analysis to make more automated decisions.</p>
+
+<p>With this post, I want to describe a hypothetical revenue management platform that consumes a retailer’s data and controls different aspects of the retailer’s strategy such as pricing, marketing, and inventory.</p>
+</blockquote>
+
+<h2 id="the-combination-of-economic-frameworks-and-data-mining-methods">The combination of economic frameworks and data mining methods</h2>
+
+<p>There are two major reasons why I focus on a combination of economic frameworks and data mining methods:</p>
+
+<ul>
+<li><p>Hundreds of economic models relevant to retail can be found in economic textbooks and articles because markets, discounts, competition were a subject of intensive research over the last century, if not longer. However, many of these models are highly parametric and not flexible enough to model real life with sufficient accuracy. Data mining offers a variety of techniques for nonparametric modeling that helps to create flexible and practical models. Many articles and case studies published during the last decade successfully achieve the balance between abstract models and machine learning.</p></li>
+
+<li><p>Fast data circulation in modern retail enables retailers to make accurate forecasts using relatively simple models because small incremental predictions are generally simpler than big decisions. For instance, it might be difficult to calculate the optimal price for a new disruptive product because its perceived value is not known, but it can be relatively easy to automatically adjust promotion prices in real time depending on demand and inventory levels. Some commercially successful solutions for price optimization discard most of economic modeling simply moving prices up and down depending on closed loop feedback from point of sales.</p></li>
+</ul>
+
+<p>These two considerations suggest a high potential for automated decision making and dynamic optimization in retail, so we were keen to study this subject.</p>
+
+<p>Most of this post represents an overview of the results published by retailers and researchers who built practical decision making and optimization systems combining abstract economic models with data mining methods.</p>
+
+<p>The post focuses mainly on optimization problems related to revenue management discipline which includes marketing and pricing questions. More specialized data mining applications like supply chain optimization and fraud detection are out of scope, as well as the implementation details of the data mining process (such as evaluation of model quality).</p>
+
+<h3 id="next-steps">Next Steps</h3>
+
+<p>The rest of the post is organized as follows:</p>
+
+<ul>
+<li><p>We first introduce a simple framework that ties together a retailer’s actions, profits and data. This framework will later be used to describe analytical problems in a more uniform way.</p></li>
+
+<li><p>The main body of the article represents a catalog of optimization problems relevant to retail. We describe the problems one by one in separate sections. Each section provides a brief problem statement, a list of business use cases and applications, and a detailed description of how the problem can be decomposed into econometric models and data mining tasks that help to solve the business problem by means of numerical optimization.</p></li>
+
+<li><p>We next provide a section that discusses the economic benefits that can be expected in practice.</p></li>
+
+<li><p>Finally, we conclude the post with a discussion of dependencies between the considered problems to figure out common principles and important cross-cuts.</p></li>
+</ul>
+
+<h4 id="end">End</h4>
+
+<p>Filet mignon strip steak porchetta.</p>
+
+</div>
+
+        <footer class="post-footer clearfix">
+    
+
+    <div class="share">
+        <a class="icon-twitter" href="http://twitter.com/share?text=Solving%20Problems%20in%20Retail%20with%20DATA%20MINING%20%e2%80%93%20Part%201%2f3&url=http%3a%2f%2fblog.commerce-experts.com%2f2016%2f03%2f14%2fsolving-problems-in-retail-with-data-mining-part-1-3%2f"
+            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+            <i class="fa fa-twitter"></i>
+            <span class="hidden">Twitter</span>
+        </a>
+
+        <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fblog.commerce-experts.com%2f2016%2f03%2f14%2fsolving-problems-in-retail-with-data-mining-part-1-3%2f"
+            onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+            <i class="fa fa-facebook"></i>
+            <span class="hidden">Facebook</span>
+        </a>
+
+        <a class="icon-google-plus" href="https://plus.google.com/share?url=http%3a%2f%2fblog.commerce-experts.com%2f2016%2f03%2f14%2fsolving-problems-in-retail-with-data-mining-part-1-3%2f"
+           onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+           <i class="fa fa-google-plus"></i>
+            <span class="hidden">Google+</span>
+        </a>
+    </div>
+</footer>
+
+        
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a title="Commerce Experts Blog" href="http://blog.commerce-experts.com/">Commerce Experts Blog</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#">
+                        <i class="fa fa-angle-up"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2016 / Powered by <a href="http://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="http://blog.commerce-experts.com/js/jquery-1.11.3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+        <script src="http://blog.commerce-experts.com/js/jquery.fitvids.js"></script>
+        <script src="http://blog.commerce-experts.com/js/scripts.js"></script>
+    </body>
+</html>
+
