@@ -1,6 +1,6 @@
 +++
 date = "2016-11-04T18:07:10+01:00"
-draft = true
+draft = false
 title = "Yet another test post"
 
 +++
