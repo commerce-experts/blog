@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Commerce Experts Blog</title>
-    <link>http://blog.commerce-experts.com/index.xml</link>
-    <description>Recent content on Commerce Experts Blog</description>
+    <title>Post-rsses on Commerce Experts Blog</title>
+    <link>http://blog.commerce-experts.com/post/index.xml</link>
+    <description>Recent content in Post-rsses on Commerce Experts Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Commerce Experts UG</copyright>
     <lastBuildDate>Mon, 05 Dec 2016 18:07:00 +0100</lastBuildDate>
-    <atom:link href="http://blog.commerce-experts.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.commerce-experts.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Datengetrieben die Produktsuche optimieren - Teil 01</title>
