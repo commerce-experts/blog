@@ -1,6 +1,6 @@
 +++
 date = "2016-12-05T18:07:00+01:00"
-draft = true
+draft = false
 title = "Datengetrieben die Produktsuche optimieren - Teil 01"
 
 +++
