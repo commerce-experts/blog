@@ -7,50 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Commerce Experts UG</copyright>
-    <lastBuildDate>Mon, 05 Dec 2016 18:07:00 +0100</lastBuildDate>
     <atom:link href="http://blog.commerce-experts.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Datengetrieben die Produktsuche optimieren - Teil 01</title>
-      <link>http://blog.commerce-experts.com/2016/12/05/yet-another-test-post/</link>
-      <pubDate>Mon, 05 Dec 2016 18:07:00 +0100</pubDate>
-      
-      <guid>http://blog.commerce-experts.com/2016/12/05/yet-another-test-post/</guid>
-      <description>
-
-&lt;h2 id=&#34;mehr-verkaufen-dank-guter-produktsuche&#34;&gt;Mehr verkaufen dank guter Produktsuche&lt;/h2&gt;
-
-&lt;p&gt;Damit Shopbesucher zu Käufern werden, ist es wichtig, dass sie über die shopinterne Suche schnell und bequem zum Wunschprodukt oder zur Wunschproduktfamilie finden. Die Suche ist somit eine der zentralen Funktionen für den E-Commerce und wird auch in Zukunft weiterhin wichtiger werden, vor allem durch den Trend der mobilen Suche und der Möglichkeit der Online-Bestellungen mit Abholung im Ladengeschäft gefördert.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Doch wie gelingt es die Potenziale im Bereiche der Produktsuche mit Hilfe eines kontinuierlichen und möglichst Ressourcen schonenden Prozesses zu heben? &lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Wie stelle ich sicher, dass die Produktsuche immer die bestmöglichen Ergebnisse erreicht?&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Wir bei CXP beschäftigen uns bereits seit Jahrzehnten mit Antworten auf diese Fragen und wollen unsere Erfahrungen mit dieser Thematik nun auch in unserem Blog thematisieren.&lt;/p&gt;
-
-&lt;h2 id=&#34;suche-im-e-commerce-verbessern&#34;&gt;SUCHE IM E-COMMERCE VERBESSERN&lt;/h2&gt;
-
-&lt;p&gt;&lt;span style=&#34;letter-spacing: 0.01em;&#34;&gt;Gerade in den letzten Jahren hat sich der Fokus in Bezug auf die Suchfunktion maßgeblich verschoben, weg von &amp;ldquo;funktioniert die Suche?&amp;rdquo; hin zu &amp;ldquo;ist der Nutzer zufrieden?&amp;rdquo;  Fakt ist dass die meisten Nutzer leider nicht zufrieden mit der Sucherfahrung sind. Zu den häufigsten Problemen, die wir bei unseren Kunden beobachten konnten gehören unter anderem:&lt;/span&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Irrelevante Ergebnisse - es werden nicht die Produkte angezeigt, die der Kunde sucht bzw. kaufen will&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Hohe Nulltreffer raten - eine Produktsuche gibt das Ergebnis Null zurück&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Unterschiedliche Ergebnisse bei Suchanfragen in Singular / Plural - Eine Suche nach Hose und Hosen liefert unterschiedliche Ergebnisse&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Irrelevante Suchvorschläge im Suggest - In den Suchvorschlägen befinden sich Fehlschreibweisen, Duplikate oder im schlimmsten Fall sogar Suchanfragen die in einem Nulltreffer enden&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Diese Beispiele zeigen, dass es eine Vielzahl an Hebeln gibt an denen man ganzheitlich ansetzen muss um die Qualität der Sucherfahrung kontinuierlich und stetig zu verbessern. &lt;/p&gt;
-
-&lt;p&gt;Aus diesen Gründen starten unsere Projekte stets mit einer Analyse der bestehenden Suchfuktion. Hierfür unterziehen wir vor allem die Query-Logs einer gründlichen Analyse, um die Probleme, die durch das Benutzerverhalten aufgezeigt werden, zu erfassen und zu dokumentieren. Diese Einblicke dienen dann als Grundlage für die Handlungsempfehlungen.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Next: Im nächsten Beitrag geben wir einen kleinen Einblick in unseren Analyse-Prozess und geben ein Beispiel wie man die Qualität der Sucherfahrung überwachen kann.&lt;/em&gt;&lt;/p&gt;
-</description>
-    </item>
     
   </channel>
 </rss>
